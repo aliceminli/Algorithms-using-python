@@ -24,6 +24,7 @@ def rotate(nums, k):
     for j in range(0, k % len(nums)):
         nums[j] = a[j]
 
+
 if __name__ == '__main__':
     a = [1, 2, 3, 4, 5, 6, 7]
     rotate(a, 4)
@@ -32,3 +33,5 @@ if __name__ == '__main__':
     rotate_list(b, 8)
     print a
     # print b
+
+
